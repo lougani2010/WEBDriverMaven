@@ -29,6 +29,8 @@ public class LoginTest {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@name='password']")).sendKeys("bouchra83");
 		driver.findElement(By.cssSelector(".RveJvd.snByac")).click();
+		//Click on sign in
+		driver.findElement(By.cssSelector("[id='signin']")).click();
 
 	}
 	@AfterSuite
