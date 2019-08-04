@@ -30,7 +30,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//*[@name='password']")).sendKeys("bouchra83");
 		driver.findElement(By.cssSelector(".RveJvd.snByac")).click();
 		//Click on sign in
-		driver.findElement(By.cssSelector("[id='signin']")).click();
+		//driver.findElement(By.cssSelector("[id='signin']")).click();
 
 	}
 	@AfterSuite
